@@ -1,0 +1,12 @@
+drop database informacoes;
+  create database informacoes;
+    use informacoes;
+    create table if not exists informacao(
+      id int(50) not null auto_increment primary key,
+      stringInfo varchar(50),
+      intInfo int(20),
+      dateInfo Date,
+      doubleInfo double
+
+
+    );
